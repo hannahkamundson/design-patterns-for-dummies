@@ -1,12 +1,12 @@
-package strategy;
+package patterns.strategy;
 
-import strategy.go.GoByDrivingFastAlgorithm;
-import strategy.vehicle.FormulaOne;
-import strategy.vehicle.Helicopter;
-import strategy.vehicle.StreetRacer;
+import patterns.strategy.go.GoByDrivingFastAlgorithm;
+import patterns.strategy.vehicle.FormulaOne;
+import patterns.strategy.vehicle.Helicopter;
+import patterns.strategy.vehicle.StreetRacer;
 
-public class Main {
-    public static void main(String[] args) {
+public class StrategyMain {
+    public static void run() {
         FormulaOne formulaOne = new FormulaOne();
         Helicopter helicopter = new Helicopter();
         StreetRacer streetRacer = new StreetRacer();

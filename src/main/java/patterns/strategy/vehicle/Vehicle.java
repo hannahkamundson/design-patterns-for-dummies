@@ -1,6 +1,6 @@
-package strategy.vehicle;
+package patterns.strategy.vehicle;
 
-import strategy.go.GoAlgorithm;
+import patterns.strategy.go.GoAlgorithm;
 
 public abstract class Vehicle {
     private GoAlgorithm goAlgorithm;

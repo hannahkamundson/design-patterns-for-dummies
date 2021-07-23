@@ -1,6 +1,6 @@
-package strategy.vehicle;
+package patterns.strategy.vehicle;
 
-import strategy.go.GoByFlyingAlgorithm;
+import patterns.strategy.go.GoByFlyingAlgorithm;
 
 public class Helicopter extends Vehicle {
     public Helicopter() {

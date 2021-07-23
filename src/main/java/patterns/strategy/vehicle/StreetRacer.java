@@ -1,6 +1,6 @@
-package strategy.vehicle;
+package patterns.strategy.vehicle;
 
-import strategy.go.GoByDrivingAlgorithm;
+import patterns.strategy.go.GoByDrivingAlgorithm;
 
 public class StreetRacer extends Vehicle {
     public StreetRacer() {

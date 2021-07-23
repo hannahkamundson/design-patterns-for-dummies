@@ -1,6 +1,6 @@
-package strategy.vehicle;
+package patterns.strategy.vehicle;
 
-import strategy.go.GoByDrivingFastAlgorithm;
+import patterns.strategy.go.GoByDrivingFastAlgorithm;
 
 public class FormulaOne extends Vehicle {
     public FormulaOne() {

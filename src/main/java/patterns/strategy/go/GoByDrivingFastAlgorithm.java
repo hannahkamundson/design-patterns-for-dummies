@@ -1,4 +1,4 @@
-package strategy.go;
+package patterns.strategy.go;
 
 public class GoByDrivingFastAlgorithm implements GoAlgorithm {
     public void go() {
