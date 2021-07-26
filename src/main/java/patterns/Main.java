@@ -2,6 +2,7 @@ package patterns;
 
 import patterns.decorator.DecoratorMain;
 import patterns.factory.FactoryMain;
+import patterns.observer.ObserverMain;
 import patterns.strategy.StrategyMain;
 
 public class Main {
@@ -17,6 +18,10 @@ public class Main {
         // Run the factory pattern
         newPattern("Factory");
         FactoryMain.run();
+
+        // Run the observer pattern
+        newPattern("Observer");
+        ObserverMain.run();
     }
 
     private static void newPattern(String pattern) {
