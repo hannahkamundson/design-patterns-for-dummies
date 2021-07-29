@@ -1,5 +1,6 @@
 package patterns;
 
+import patterns.chainofresponsibility.ChainOfResponsibilityMain;
 import patterns.decorator.DecoratorMain;
 import patterns.factory.FactoryMain;
 import patterns.observer.ObserverMain;
@@ -22,6 +23,10 @@ public class Main {
         // Run the observer pattern
         newPattern("Observer");
         ObserverMain.run();
+
+        // Run the chain of responsibility pattern
+        newPattern("Chain of Responsibility");
+        ChainOfResponsibilityMain.run();
     }
 
     private static void newPattern(String pattern) {
