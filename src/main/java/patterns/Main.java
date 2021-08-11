@@ -4,6 +4,8 @@ import patterns.chainofresponsibility.ChainOfResponsibilityMain;
 import patterns.decorator.DecoratorMain;
 import patterns.factory.FactoryMain;
 import patterns.observer.ObserverMain;
+import patterns.singleton.SingletonMain;
+import patterns.singleton.SingletonSynchronizedMain;
 import patterns.strategy.StrategyMain;
 
 public class Main {
@@ -27,6 +29,12 @@ public class Main {
         // Run the chain of responsibility pattern
         newPattern("Chain of Responsibility");
         ChainOfResponsibilityMain.run();
+
+        // Run singleton
+        newPattern("Singleton");
+        SingletonMain.run();
+        newPattern("Singleton Synchronized");
+        SingletonSynchronizedMain.runMain();
     }
 
     private static void newPattern(String pattern) {
