@@ -3,6 +3,8 @@ package patterns;
 import patterns.chainofresponsibility.ChainOfResponsibilityMain;
 import patterns.decorator.DecoratorMain;
 import patterns.factory.FactoryMain;
+import patterns.flyweight.FlyweightMain;
+import patterns.flyweight.FlyweightThreadedMain;
 import patterns.observer.ObserverMain;
 import patterns.singleton.SingletonMain;
 import patterns.singleton.SingletonSynchronizedMain;
@@ -35,6 +37,12 @@ public class Main {
         SingletonMain.run();
         newPattern("Singleton Synchronized");
         SingletonSynchronizedMain.runMain();
+
+        // Run flyweight
+        newPattern("Flyweight");
+        FlyweightMain.run();
+        newPattern("Flyweight Threaded");
+        FlyweightThreadedMain.runMain();
     }
 
     private static void newPattern(String pattern) {
