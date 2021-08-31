@@ -1,5 +1,6 @@
 package patterns;
 
+import patterns.adapter.AdapterMain;
 import patterns.chainofresponsibility.ChainOfResponsibilityMain;
 import patterns.decorator.DecoratorMain;
 import patterns.factory.FactoryMain;
@@ -43,6 +44,10 @@ public class Main {
         FlyweightMain.run();
         newPattern("Flyweight Threaded");
         FlyweightThreadedMain.runMain();
+
+        // Run adapter
+        newPattern("Adapter");
+        AdapterMain.run();
     }
 
     private static void newPattern(String pattern) {
