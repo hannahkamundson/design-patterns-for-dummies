@@ -3,6 +3,7 @@ package patterns;
 import patterns.adapter.AdapterMain;
 import patterns.chainofresponsibility.ChainOfResponsibilityMain;
 import patterns.decorator.DecoratorMain;
+import patterns.facade.FacadeMain;
 import patterns.factory.FactoryMain;
 import patterns.flyweight.FlyweightMain;
 import patterns.flyweight.FlyweightThreadedMain;
@@ -48,6 +49,10 @@ public class Main {
         // Run adapter
         newPattern("Adapter");
         AdapterMain.run();
+
+        // Run facade
+        newPattern("Facade");
+        FacadeMain.run();
     }
 
     private static void newPattern(String pattern) {
