@@ -11,6 +11,7 @@ import patterns.observer.ObserverMain;
 import patterns.singleton.SingletonMain;
 import patterns.singleton.SingletonSynchronizedMain;
 import patterns.strategy.StrategyMain;
+import patterns.template.TemplateMain;
 
 public class Main {
     public static void main(String[] args) {
@@ -53,6 +54,10 @@ public class Main {
         // Run facade
         newPattern("Facade");
         FacadeMain.run();
+
+        // Run template
+        newPattern("Template");
+        TemplateMain.run();
     }
 
     private static void newPattern(String pattern) {
