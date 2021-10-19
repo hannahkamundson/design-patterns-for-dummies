@@ -1,6 +1,7 @@
 package patterns;
 
 import patterns.adapter.AdapterMain;
+import patterns.builder.BuilderMain;
 import patterns.chainofresponsibility.ChainOfResponsibilityMain;
 import patterns.decorator.DecoratorMain;
 import patterns.facade.FacadeMain;
@@ -58,6 +59,10 @@ public class Main {
         // Run template
         newPattern("Template");
         TemplateMain.run();
+
+        // Builder template
+        newPattern("Builder");
+        BuilderMain.run();
     }
 
     private static void newPattern(String pattern) {
