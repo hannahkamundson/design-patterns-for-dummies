@@ -8,6 +8,7 @@ import patterns.facade.FacadeMain;
 import patterns.factory.FactoryMain;
 import patterns.flyweight.FlyweightMain;
 import patterns.flyweight.FlyweightThreadedMain;
+import patterns.iterator.IteratorMain;
 import patterns.observer.ObserverMain;
 import patterns.singleton.SingletonMain;
 import patterns.singleton.SingletonSynchronizedMain;
@@ -60,9 +61,13 @@ public class Main {
         newPattern("Template");
         TemplateMain.run();
 
-        // Builder template
+        // Run builder
         newPattern("Builder");
         BuilderMain.run();
+
+        // Run iterator
+        newPattern("Iterator");
+        IteratorMain.run();
     }
 
     private static void newPattern(String pattern) {
